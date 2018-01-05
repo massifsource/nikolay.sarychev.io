@@ -1,403 +1,449 @@
 body {
-	padding: 0;
-	margin:0;
-	font-family:  'Open Sans', sans-serif;
-	font-weight: 400;
-	height: 100%;
-	width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
 }
+
 div, span, button, a, form, input {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 h1 {
-	font-weight: 200;
-	margin-top: 225px;
-	color:#f9f7ec;
+    font-weight: 200;
+    margin-top: 225px;
+    color: #f9f7ec;
 }
+
 h1:hover {
-	font-size: 50PX;
-     text-decoration: none;
-     color:red;
-     cursor: default;
-     transition: .5s
+    font-size: 50PX;
+    text-decoration: none;
+    color: red;
+    cursor: default;
+    transition: .5s
 }
+
 span {
-	margin-top: 325px;
-	font-size: 80px;
-	font-weight: 800;
-	letter-spacing: 10px;
+    margin-top: 325px;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 10px;
 }
 
 h2 {
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #3d3c3c;
-	text-align: center;
-	font-size: 35px;
-	margin-bottom: 20px;
-	margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3d3c3c;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 
 }
+
 h2:hover {
- font-size: 38px;
-	font-weight: 700;
-	cursor: default;
-	letter-spacing: 0.1em;
-	transition: .5s;
-	color:red;
+    font-size: 38px;
+    font-weight: 700;
+    cursor: default;
+    letter-spacing: 0.1em;
+    transition: .5s;
+    color: red;
 }
+
 h3 {
-	text-transform: uppercase;
-	font-weight: 400;
-	color: #3d3c3c;
-	text-align: center;
-	font-size: 28px;
-	margin-top: 20px;
-	margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #3d3c3c;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-h3:hover { font-size: 33px;
-	font-weight: 700;
-	cursor: default;
-	transition: .5s;
-	text-align: center;
-	color:red;
+
+h3:hover {
+    font-size: 33px;
+    font-weight: 700;
+    cursor: default;
+    transition: .5s;
+    text-align: center;
+    color: red;
 }
+
 h4 {
-	text-transform: uppercase;
-	font-weight: 400;
-	color: black;
-	text-align: center;
-	font-size: 25px;
-	margin-top: 104px;
-	margin-left: -30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 104px;
+    margin-left: -30px;
 }
+
 h5 {
-	font-style: italic;
-	font-size: 25px;
-	margin-top: 70px;
-	font-weight: 300;
-	margin-bottom: 50px;
-	text-align:center;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
 
 }
+
 h6 {
-	font-size: 20px;
-	font-weight: 300;
-	letter-spacing: 0.06em;
-	text-align: justify;
-	line-height: 1.9em;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-align: justify;
+    line-height: 1.9em;
 }
+
 ul, li {
-	display: block;
-	padding: 30px 80px;
-	margin: 0px;
-	text-transform: uppercase;
+    display: block;
+    padding: 30px 80px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .header {
-	background: url('../img/background-4.png') no-repeat center top;
-	height: 900px;
-	width: 100%;
-	color: #ffffff;
+    background: url('../img/background-4.png') no-repeat center top;
+    height: 900px;
+    width: 100%;
+    color: #ffffff;
 
 }
+
 .main {
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
 .menu {
-	text-align: center;
+    text-align: center;
 }
+
 .menu__item a {
-	color: #f9f7ec;
-	font-weight: 300;
-	font-size: 23px;
-	text-align: center;
+    color: #f9f7ec;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
 
 }
+
 .offer {
-	display: inline;
-	font-size: 60px;
-	text-align: center;
-	line-height:1.5em;
+    display: inline;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .hr {
-	background-color: #f9f8f8;
+    background-color: #f9f8f8;
     width: 650px;
     height: 2px;
-    display: block;
-	margin: 20px auto 0;
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-	margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 10px;
 }
+
 .hr1 {
-	background-color: gray;
+    background-color: gray;
     width: 100px;
     height: 1px;
-    display: block;
-	margin: 90px auto 0;
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-	/*margin-bottom: 10px;*/
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0;
+    /*margin-bottom: 10px;*/
 
 }
+
 .photo {
-	background: url(../img/photo.png) no-repeat left;
-	height: 300px;
-	width: 300px;
-	margin-top: 80px;
-	margin-left: -50px;
-	border-radius: 181px;
-    box-shadow: 9px 1px 10px#999;
+    background: url(../img/photo.png) no-repeat left;
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: -50px;
+    border-radius: 181px;
+    box-shadow: 9px 1px 10px #999;
 
 }
+
 p {
-	letter-spacing: 0.09em;
-	text-align: justify;
-	line-height: 1.6em;
-	color: black;
+    letter-spacing: 0.09em;
+    text-align: justify;
+    line-height: 1.6em;
+    color: black;
 
 }
 
 .aboutme {
-	margin-top: -330px;
-	margin-left: 400px;
-	font-size: 25px;
-	font-weight: 300;
+    margin-top: -330px;
+    margin-left: 400px;
+    font-size: 25px;
+    font-weight: 300;
 }
-.experience {
-	background-color:#e3e3db;
 
-	margin-top: 30px;
-	padding-top: 20px;
+.experience {
+    background-color: #e3e3db;
+
+    margin-top: 30px;
+    padding-top: 20px;
 }
+
 .skills {
-	padding-top: 20px;
-	background-color:white;
-	margin-top: 104px;
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 104px;
 }
+
 .done {
-	background: url(../img/ico-done2.png) no-repeat center top;
-	height: 25px;
-	width: 25px;
-	margin-top: 10px;
+    background: url(../img/ico-done2.png) no-repeat center top;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
 }
+
 .location {
-	background: url(../img/location2.png) no-repeat center top;
-	height: 30px;
-	width: 30px;
-	padding-right: 150px;
+    background: url(../img/location2.png) no-repeat center top;
+    height: 30px;
+    width: 30px;
+    padding-right: 150px;
 
 }
 
 #toTop {
-	display:none;
-	text-decoration:none;
-	position:fixed;
-	bottom:10px;
-	right:10px;
-	overflow:hidden;
-	width:51px;
-	height:51px;
-	border:none;
-	text-indent:100%;
-	background:url(../img/ui.totop.png) no-repeat left top;
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: 100%;
+    background: url(../img/ui.totop.png) no-repeat left top;
 }
 
 #toTopHover {
-	background:url(../img/ui.totop.png) no-repeat left -51px;
-	width:51px;
-	height:51px;
-	display:block;
-	overflow:hidden;
-	float:left;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter:alpha(opacity=0);
+    background: url(../img/ui.totop.png) no-repeat left -51px;
+    width: 51px;
+    height: 51px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
 }
 
 #toTop:active, #toTop:focus {
-	outline:none;
+    outline: none;
 }
+
 ul.menu > li > a:hover {
-    background-color:
     font-size: 20PX;
-     text-decoration: none;
-     color:red;
+    text-decoration: none;
+    color: red;
 }
 
 a {
-	color: black;
+    color: black;
 }
+
 a:hover {
-	color:red;
-	text-decoration: none;
+    color: red;
+    text-decoration: none;
 
 }
 
 .contact a {
-	font-weight: 300;
-	text-transform: uppercase;
-	color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
 }
+
 .contact a:hover {
-	color:red;
-	text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 .wrapper {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 .content {
-  padding-bottom: 90px;
-  height: 100vh;
+    padding-bottom: 90px;
+    height: 100vh;
 }
+
 .footer {
- 	background: url(../img/background-4.png) no-repeat center top;
- 	position: relative;
-  	bottom: 0;
-  	min-width:100%;
-  	height: 80px;
+    background: url(../img/background-4.png) no-repeat center top;
+    position: relative;
+    bottom: 0;
+    min-width: 100%;
+    height: 80px;
 }
+
 .backfooter {
-  	text-align:center;
-  	margin-top: 25px;
-  	font-weight: 300;
-  	color:#f9f7ec;;
-  	font-size: 10px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 300;
+    color: #f9f7ec;;
+    font-size: 10px;
 }
+
 .mailto {
-	text-align: center;
-	font-weight: 300;
-	font-size: 20px;
-	margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 30px;
 
+    }
 
-@media screen and (max-width: 425px)
-{
-h1 {
-	font-size: 30px;
+    h1:hover {
+        font-size: 33px;
+    }
+
+    ul, li {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .header {
+        display: flex;
+        /*background: cover;*/
+        width: 100%;
+        height: 500px;
+    }
+
+    h2, h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    h2:hover {
+        font-size: 22px;
+        color: red;
+    }
+
+    h3:hover {
+        font-size: 22px;
+        color: red;
+    }
+
+    span {
+        font-size: 40px;
+    }
+
+    .menu__item a {
+        font-size: 10px;
+        padding-right: -40px;
+    }
+
+    .hr {
+        width: 220px;
+    }
+
+    .aboutme {
+        font-size: 15px;
+        margin: 30px 10px;
+    }
+
+    .location {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h6 {
+        font-size: 15px;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    h5, h4 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .done {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer{
+        display: flex;
+        width: 100%;
+    }
+    .contact a {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .web a {
+        display: block;
+        text-align: center;
+    }
+
+    .personal p {
+        display: block;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 10px;
+
+    }
 
 }
-h1:hover {
-	font-size: 33px;
-}
-	ul,li {
-		padding:0;
-		margin-top: 10px;
-	}
-	.header{
-		display: flex;
-		background: cover;
-		width: 100%
-		height:500px;
-	}
-	h2,h3 {
-		font-size: 20px;
-		padding-bottom: 10px;
-	}
 
-	h2:hover {
-		font-size:22px;
-		color:red;
-	}
-	h3:hover {
-		font-size:22px;
-		color:red;
-	}
-	span {
-		font-size:40px;
-	}
-	.menu__item a {
-		font-size: 10px;
-		padding-right: -40px;
-	}
-	.hr {
-		width: 220px;
-	}
+@media screen and (max-width: 996px) {
+    ul, li {
+        padding: 0;
+        margin-top: 20px;
+    }
 
-	.aboutme { font-size: 15px;
-		margin: 30px 10px;
-	}
-	.location {display: block;
-		margin: 0 auto;
-	}
-	h6 {
-		font-size: 15px;
-		text-align: justify;
-		margin-top:10px;
-	}
-	h5,h4 {
-		font-size: 15px;
-		text-align: center;
-		margin-top:10px;
-		margin-left: 10px;
-	}
-	.done {
-		display: block;
-		margin: 0 auto;
-	}
-	.footer{
-		display: flex;
-		background: cover;
-		width: 100%;
-	}
-	.contact a {
-		font-size: 18px;
-		margin: 0 auto;
-	}
-	.web a {
-	display: block;
-	 text-align: center;
-	}
-	.personal p {
-		display: block;
-		margin-left:50px;
-		text-align: center;
-		font-size: 18px;
-	}
-	p {font-size: 10px;
+    .photo {
+        display: block;
+        height: 300px;
+        width: 300px;
+        margin-left: 60px;
+    }
 
-	}
+    p {
+        font-size: 18px;
+
+    }
+
+    .web a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .location {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    .done {
+        display: block;
+        margin: 0 auto;
+    }
 
 }
-@media screen and (max-width: 996px)
 
-{
-	ul,li {
-		padding:0;
-		margin-top: 20px;
-	}
-	.photo {
-		display: block;
-		height: 300px;
-		width: 300px;
-		margin-left: 60px;
-	}
-	p {font-size: 18px;
-
-	}
-
-	}
-	.web a {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	}
-	.location {display: block;
-		margin: 0 auto;
-	}
-	h5 {
-		text-align: center;
-	}
-	.done {
-		display: block;
-		margin: 0 auto;
-	}
-}
