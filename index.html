@@ -1,527 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>NIKOLAY SARYCHEV</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <!-- arcticModal theme -->
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/simple.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.css" rel="stylesheet">
+    <title>Nikolay Sarychev</title>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="content">
-			<div id="main">
-				<header id="header" class="header">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<nav id="menu">
-									<ul class="menu d-flex justify-content-around">
-										<li class="menu__item">
-											<a href="#about">
-												Profile
-											</a>
-										</li>
-										<li class="menu__item">
-											<a href="#experience">
-												Experience
-											</a>
-										</li>
-										<li class="menu__item">
-											<a href="#skills">
-												Skills
-											</a>
-										</li>
-										<li class="menu__item">
-											<a href="#contact">
-												Contact
-											</a>
-										</li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="offer">
-									<h1> <span>NIKOLAY SARYCHEV</span><br>
-										<div class="hr"></div>
-										Professional profile
-									</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-				</header>
-				<section id="about" class="about">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<h2>&lt;&#8194About me&#8194&gt;</h2>
-								<div class="hr1"></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1"></div>
-								<div class="photo d-none d-md-block">
-							</div>
-						</div>
-						<div class="aboutme">
-							<div class="row">
-								<div class="personal">
-									<div class="col-lg-11">
-											<p> <b>Name</b>:  Nikolay Sarychev <br>
-											<b>Age</b>: 32 years <br>
-											<b>Location</b>: USA, Denver, CO<br>
-											</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-11">
-									<p>
-										Talented software engineer with analytical, research, engineering and leadership skills. Work well autonomously and as a part of a team. Effective communicator endowed with strong technical documentation and presentation skills.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section id="experience" class="experience">
-					<div class="container">
-							<h2>
-								&lt;&#8194EXPERIENCE&#8194&gt;
-							</h2>
-						<div class="hr1"></div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h3>EDUCATION</h3>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h4> <b>&#10026; WEST TEXAS A&M UNIVERSITY<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								Canyon, Texas — May 2010
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Bachelor of Science in Mathematics, Minors in Computer Science and Mechanical Engineering. Summa Cum Laude, IBM Master the Mainframe. Graduate hours in Real Analysis.
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1">
-								<div class="location"></div>
-							</div>
-							<div class="col-lg-3 justify-content-around">
-								<h6 class="web"> <a href="http://www.wtamu.edu">wtamu.edu</a>
+<header class="header" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-none d-sm-block menu-collapse order-2 order-lg-0">
+                <nav class="menu">
+                    <ul class="menu__main d-flex justify-content-between">
+                        <li class="menu__item">
+                            <a href="#about" class="menu__ref buzz-out  go_to">
+                                PROFILE
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#experience" class="menu__ref buzz-out  go_to">
+                                EXPERIENCE
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#skills" class="menu__ref buzz-out go_to">
+                                SKILLS
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__ref buzz-out  go_to">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2 d-sm-none order-md-1 text-sm-center">
+                <div class="menu-open text-center">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center order-3">
+                <div class="developer_name change_font">
+                    Nikolay Sarychev
+                </div>
+                <div class="develop__purpose">
+                    Professional profile
+                </div>
+            </div>
+            <a href="#about" class="arrow go_to order-4">
+                <i class="fa fa-angle-double-down"></i>
+            </a>
+        </div>
+    </div>
+</header>
+<div class="about" id="about">
+    <div class="container">
+        <div class="row align-items-center d-flex">
+            <div class="col-lg-12">
+                <h2 class="title">
+                   About me
+                </h2>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="ch-item">
+                    <ul class="ch-grid">
+                        <li>
+                            <div class="ch-item">
+                                <div class="ch-info">
+                                    <div class="ch-info-front ch-img-1"></div>
+                                    <div class="ch-info-back">
+                                        <h3>Contact</h3>
+                                        <p>
+                                            <a href="https://www.linkedin.com/in/nikolay-sarychev-52248743" class="developer__info_item item__ref">
+                                                <i class="fa fa-linkedin-square"></i> linkedin.com
+                                             </a>
+                                            <a href="mailto:NIKOLAYSARYCHEV@GMAIL.COM" class="developer__info_item item__ref">
+                                                <i class="fa fa-google"></i> NIKOLAYSARYCHEV@GMAIL.COM
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="developer__info d-flex flex-column">
+                   <span class="developer__info_item">
+                       <b>Name:</b> Nikolay Sarychev
+                   </span>
+                    <span class="developer__info_item">
+                       <b>Age:</b> 32 years
+                   </span>
+                    <span class="developer__info_item">
+                       <b>Location:</b>  USA, Denver, CO
+                   </span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="developer__text">
+                   Talented software engineer with analytical,
+                   research, engineering and leadership skills.
+                   Work well autonomously and as a part of a team.
+                   Effective communicator endowed with strong technical
+                   documentation and presentation skills.
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="experience" id="experience">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h2 class="title">
+                    Expirience
+                </h2>
+                <h3 class="title_two">
+                    Education
+                </h3>
+                <h4 class="title_three">
+                    <i class="fa fa-graduation-cap"></i>WEST TEXAS A&M UNIVERSITY
+                </h4>
+            </div>
+            <div class="col-lg-12">
+                <div class="title_four1 align-items-center d-flex">
+                    <h5 class="ti">
+                        <i class="fa fa-location-arrow"></i> Canyon, Texas
+                    </h5>
+                    <h5 class="title_four">
+                        <i class="fa fa-calendar"></i> May 2010
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p class="title_text">
+                    Bachelor of Science in Mathematics, Minors in Computer
+                    Science and Mechanical Engineering. Summa Cum Laude,
+                    IBM Master the Mainframe.
+                    Graduate hours in Real Analysis.
+                </p>
+            </div>
+            <div class="col-lg-12 mb-5">
+                <i class="fa fa-link"></i> <a href="http://www.wtamu.edu" class="title__href">wtamu.edu</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h3 class="title_two mt-5">
+                    Career
+                </h3>
+                <h4 class="title_three">
+                    <i class="fa fa-cog"></i>SENIOR SOFTWARE ENGINEER
+                </h4>
+                <h5 class="ti mt-5 text-center">
+                    Rachio
+                </h5>
+            </div>
+            <div class="col-lg-12 text-sm-center">
+                <div class="title_four1 align-items-center d-sm-flex">
+                    <h5 class="ti">
+                        <i class="fa fa-location-arrow"></i> Denver, Colorado
+                    </h5>
+                    <h5 class="title_four">
+                        <i class="fa fa-calendar"></i> October 2016 - current
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p class="title_text">
+                    Rebuilding a scalable solution to replace an existing API using microservice
+                    architecture and GRPC. Developing new features and advanced scheduling systems
+                    for Rachio irrigation controllers. Working with IoT technologies and integrating
+                    with new physical devices. Designing innovative solutions that provide seamless
+                    integration between user and hardware.
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <i class="fa fa-link"></i> <a href="https://www.rachio.com" class="title__href">rachio.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h4 class="title_three">
+                    <i class="fa fa-cog"></i>SENIOR SOFTWARE ENGINEER
+                </h4>
+                <h5 class="ti  mt-5 text-center">
+                    MapQuest
+                </h5>
+            </div>
+            <div class="col-lg-12">
+                <div class="title_four1 align-items-center d-md-flex text-md-center">
+                    <h5 class="ti">
+                        <i class="fa fa-location-arrow"></i> Denver, Colorado
+                    </h5>
+                    <h5 class="title_four">
+                        <i class="fa fa-calendar"></i> March 2015 - October 2016
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p class="title_text">
+                    Responsibilities include developing and designing new data ingestion engine
+                    while maintaining a legacy system, research and improvement of data matching
+                    algorithm, system and software architecture. Re-building and leading a team of
+                    developers towards an effective implementation of a fast performance streaming
+                    data ingestion engine designed to scale in AWS. Working across multiple teams
+                    (consumer and business) to provide best API experience while assuring seamless
+                    integration between various software components in the company. Coordinating AWS
+                    migration of legacy software. Designed and optimized data structures and models
+                    for migration of data from relational data store to Elasticsearch. Introduced Kafka
+                    messaging system in place of existing ActiveMQ to provide higher throughput,
+                    high availability and scalability.
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <i class="fa fa-link"></i> <a href="https://www.mapquest.com" class="title__href">mapquest.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h4 class="title_three">
+                    <i class="fa fa-cog"></i>SOFTWARE DEVELOPER LEVEL III
+                </h4>
+                <h5 class="ti mt-5 text-center">
+                    Hastings Entertainment, Inc.
+                </h5>
+            </div>
+            <div class="col-lg-12">
+                <div class="title_four1 align-items-center d-md-flex">
+                    <h5 class="ti">
+                        <i class="fa fa-location-arrow"></i> Amarillo, Texas
+                    </h5>
+                    <h5 class="title_four">
+                        <i class="fa fa-calendar"></i> May 2010 – November 2012
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p class="title_text">
+                    Developed in a team that followed scrum agile software development method.
+                    Specialized in 3rd party eCommerce integration and database optimization and
+                    transformation. Introduced SOA and ETL technologies for existent software systems.
+                    Developed and maintained Java, Perl, Genero and Pentaho Kettle applications.
+                    Engineered enterprise level database oriented and service-client software based on Spring,
+                    JPA, Hibernate, SOAP, Axis, JSON. Mastered and improved company’s version control systems (SVN, GIT)
+                    along with build and continuous integration systems based on Maven and Hudson/Jenkins CI.
+                    Provided maintenance for a commercial grade web project along with container optimization.
+                    Developed new and improved existing automated testing techniques.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h4 class="title_three">
+                    <i class="fa fa-cog"></i>TEACHING ASSISTANT
+                </h4>
+                <h5 class="ti  mt-5 text-center">
+                    West Texas A&M University
+                </h5>
+            </div>
+                <div class="col-lg-12">
+                    <div class="title_four1 align-items-center d-md-flex">
+                        <h5 class="ti">
+                            <i class="fa fa-location-arrow"></i> Canyon, Texas
+                        </h5>
+                        <h5 class="title_four">
+                            <i class="fa fa-calendar"></i> 2008 - 2010
+                        </h5>
+                    </div>
+                </div>
+            <div class="col-lg-12">
+                <p class="title_text">
+                    Supervised laboratory sessions for the Department of Mathematics,
+                    Chemistry, and Physics. Graded and provided solutions for students.
+                    Tutored students for math courses ranging from developmental mathematics
+                    through Calculus II. Assisted with research in Bio Mathematics that investigated
+                    rapid growth of wind turbines and its affects on bat reproduction rates.
+                    Developed modeling mechanisms in MatLab.
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <i class="fa fa-link"></i> <a href="http://www.wtamu.edu" class="title__href">wtamu.edu</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="skills" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column">
+                <h2 class="title">
+                    Skills
+                </h2>
+                <h3 class="title_two">
+                    <i class="fa fa-sitemap"></i>System
+                </h3>
+                <ul class="skills_system">
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Amazon Web Services
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Linux, Unix AIX, Windows and Mac platforms
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Fundamental knowledge of virtualization technologies such as VMware and VirtualBox.
+                    </li>
+                </ul>
+                <h3 class="title_two">
+                    <i class="fa fa-keyboard-o" aria-hidden="true"></i> Programming
+                </h3>
+                <ul class="skills_programming">
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 10 years (8 Commercial + 2 School)
+                        of experience developing in Java/J2EE and related technologies.
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 2 years of experience programming
+                        in Java 8 and applying functional programming principles
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 2 Years of experience developing in Perl, Genero.
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 8 years of experience in shell scripting.
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 4 Years of experience in PL/SQL.
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> 3 Years of experience with NoSQL storage systems
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Fundamental knowledge of Python, Ruby, Groovy, Objective C, C/C++, C#.
+                    </li>
+                </ul>
+                <h3 class="title_two">
+                    <i class="fa fa-th"></i> Software and database technologies
+                </h3>
+                <ul class="skills_software text-justify">
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Advanced knowledge of Spring framework and it’s major components (	core, data, JDBC, MVC, integration, Roo, cloud, messaging, boot).
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Used various ORM technologies (JPA, Hibernate, iBatis). Proficient in relational database management systems (Oracle RAC, Informix, MySQL, MS SQL Server, PostgreSQL).
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Streaming systems based on ActiveMQ and Kafka Built AWS cloud applications based on spring cloud and spring boot
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Used Eureka and Consul for service registry Used Consul for cloud configuration in various AWS environments
 
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-									<h3>CAREER</h3>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-lg-12">
-								<h4> <b>&#10026; SENIOR SOFTWARE ENGINEER<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								 Rachio; Denver, Colorado	October 2016 - current
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Rebuilding a scalable solution to replace an existing API using microservice architecture and GRPC. Developing new features and advanced scheduling systems for Rachio irrigation controllers. Working with IoT technologies and integrating with new physical devices. Designing innovative solutions that provide seamless integration between user and hardware.
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1">
-								<div class="location"></div>
-							</div>
-							<div class="col-lg-3 justify-content-around">
-								<h6 class="web"> <a href="https://www.rachio.com/">rachio.com</a>
-								</h6>
-							</div>
-						</div>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Managed and worked with various NoSQL data stores (MongoDB, Solr, Apache Cassandra, Elasticsearch, Redis)
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Designed data structures based on store implementation. Used in-memory data grids (Hazelcast, Infinspan) for volatile state data
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Experience in web technologies (JSP, JavaScript, JSF, Vaadin, AngularJS)
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Familiar with other web frameworks (GWT, Sencha Touch, ExtJS).
+                    </li>
+                    <li class="skills__item">
+                        <i class="fa fa-check-circle"></i> Commercial experience with build and continuous integration tools (Maven, Ant, Gradle, Hudson/Jenkins, Continuum).
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="mailto:NIKOLAYSARYCHEV@GMAIL.COM" class="contact_link buzz-out">Write me!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <span class="credit">2018</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script  src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="  crossorigin="anonymous">
+</script>
+<script>
+    $('.go_to').click( function(){
+        var scroll_el = $(this).attr('href');
+        if ($(scroll_el).length != 0){
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 1000);
+        }
+        return false;
+    });
+    $(document).ready(function(){
+        // появление/затухание кнопки #back-top
+        $(function (){
+            // прячем кнопку #back-top
+            $("#back-top").hide();
 
-						<div class="row">
-							<div class="col-lg-12">
-								<h4> <b>&#10026; SENIOR SOFTWARE ENGINEER<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								 MapQuest; Denver, Colorado	March 2015 - October 2016
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Responsibilities included developing and designing new data ingestion engine while maintaining a legacy system, research and improvement of data matching algorithm, system and software architecture. Re-built and led a team of developers towards an effective implementation of a fast performance streaming data ingestion engine designed to scale in AWS. Worked across multiple teams (consumer and business) to provide best API experience while assuring seamless integration between various software components in the company. Coordinated AWS migration of legacy software. Designed and optimized data structures and models for migration of data from relational data store to Elasticsearch. Introduced Kafka messaging system in place of existing ActiveMQ to provide higher throughput, high availability and scalability.
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1">
-								<div class="location"></div>
-							</div>
-							<div class="col-lg-3 justify-content-around">
-								<h6 class="web"> <a href="https://www.mapquest.com/">mapquest.com</a>
-								</h6>
-							</div>
-						</div>
+            $(window).scroll(function (){
+                if ($(this).scrollTop() > 100){
+                    $("#back-top").fadeIn();
+                } else{
+                    $("#back-top").fadeOut();
+                }
+            });
 
-						<div class="row">
-							<div class="col-lg-12">
-								<h4> <b>&#10026; SOFTWARE ENGINEER<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								 West, Safety Services / Intrado; Longmont, Colorado	November 2012 - March 2015
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Developed and maintained emergency call routing system. Specialized in system integration and migration. Designed highly available and scalable systems. Improved performance of existing systems by introducing distributed and NoSQL technologies. Designed software migration from Oracle RAC to Hazelcast and Informix. Provided maintenance to existing Java web and SIP applications. Developed web services to provide integration points for external applications. Built integration tests for Java web applications and batch processes. Integrated automated testing procedures into software build cycle. Developed simulation mechanisms for isolation testing.
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1">
-								<div class="location"></div>
-							</div>
-							<div class="col-lg-3 justify-content-around">
-								<h6 class="web"> <a href="https://www.west.com/safety-services/">west.com</a>
-								</h6>
-							</div>
-						</div>
+            // при клике на ссылку плавно поднимаемся вверх
+            $("#back-top a").click(function (){
+                $("body,html").animate({
+                    scrollTop:0
+                }, 800);
+                return false;
+            });
+        });
+    });
 
-						<div class="row">
-							<div class="col-lg-12">
-								<h4><b>&#10026; SOFTWARE DEVELOPER LEVEL III<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								Hastings Entertainment, Inc.; Amarillo, Texas	May 2010 – November 2012
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Developed in a team that followed scrum agile software development method. Specialized in 3rd party eCommerce integration and database optimization and transformation. Introduced SOA and ETL technologies for existent software systems. Developed and maintained Java, Perl, Genero and Pentaho Kettle applications. Engineered enterprise level database oriented and service-client software based on Spring, JPA, Hibernate, SOAP, Axis, JSON. Mastered and improved company’s version control systems (SVN, GIT) along with build and continuous integration systems based on Maven and Hudson/Jenkins CI. Provided maintenance for a commercial grade web project along with container optimization. Developed new and improved existing automated testing techniques.
-								</h6>
-							</div>
-						</div>
+    $ (function () {
+        $('.menu-open') .click (function () {
+            $ ('.menu-collapse') .toggleClass('d-none');
+            $ ('.menu-collapse') .toggleClass('opened');
 
-						<div class="row">
-							<div class="col-lg-12">
-								<h4> <b>&#10026; TEACHING ASSISTANT<b></h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h5>
-								West Texas A&M University; Canyon, Texas	2008 - 2010
-								</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 justify-content-around">
-								<h6>
-								Supervised laboratory sessions for the Department of Mathematics, Chemistry, and Physics. Graded and provided solutions for students. Tutored students for math courses ranging from developmental mathematics through Calculus II. Assisted with research in Bio Mathematics that investigated rapid growth of wind turbines and its affects on bat reproduction rates. Developed modeling mechanisms in MatLab.
-								</h6>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-1">
-								<div class="location"></div>
-							</div>
-							<div class="col-lg-3 justify-content-around">
-								<h6 class="web"> <a href="http://www.wtamu.edu/">wtamu.edu</a>
-								</h6>
-							</div>
-						</div>
-					</div>
-				</sction>
-				<section id="skills" class="skills">
-					<div class="container">
-							<h2>&lt;&#8194SKILLS&#8194&gt;</h2>
-						<div class="hr1"></div>
-					<div class="row">
-						<div class="col-lg-12">
-							<h3>SYSTEM</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-10">
-							<h6> Amazon Web Services </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-10 justify-content-between">
-							<h6>Linux, Unix AIX, Windows and Mac platforms</h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11 justify-content-between">
-							<h6>Fundamental knowledge of virtualization technologies such as VMware and VirtualBox.</h6>
-						</div>
-					</div>
-						<div class="row">
-							<div class="col-lg-12">
-									<h3>PROGRAMMING</h3>
-							</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-								<h6> 8.5 years (6.5 Commercial + 2 School) of experience developing in Java/J2EE and related technologies. </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-								<h6> 2 years of experience programming in Java 8 and applying functional programming principles </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-10">
-							<h6> 2 Years of experience developing in Perl, Genero.  </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-9">
-							<h6> 8 years of experience in shell scripting.  </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-9">
-							<h6> 4 Years of experience in PL/SQL. </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-10">
-							<h6> 3 Years of experience with NoSQL storage systems</h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-							<h6> Fundamental knowledge of Python, Ruby, Groovy, Objective C, C/C++, C#. </h6>
-						</div>
-					</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<h3>SOFTWARE AND DATABASE <br>TECHNOLOGIES</h3>
-								</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-							<h6> Advanced knowledge of Spring 				framework and it’s major components (			core, data, JDBC, MVC, integration, Roo, 		cloud, messaging, boot).  </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Used various ORM technologies (JPA, Hibernate, iBatis).
-									Proficient in relational database management systems (Oracle RAC, Informix, MySQL, MS SQL Server, PostgreSQL).  </h6>
-					    </div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Streaming systems based on ActiveMQ and Kafka
-									Built AWS cloud applications based on spring cloud and spring boot </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Used Eureka and Consul for service registry
-									Used Consul for cloud configuration in various AWS environments </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Managed and worked with various NoSQL data stores (MongoDB, Solr, Apache Cassandra, Elasticsearch, Redis) </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Designed data structures based on store implementation.
-									Used in-memory data grids (Hazelcast, Infinspan) for volatile state data</h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Experience in web technologies (JSP, JavaScript, JSF, Vaadin, AngularJS)</h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-11">
-									<h6> Familiar with other web frameworks (GWT, Sencha Touch, ExtJS). </h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-1">
-							<div class="done"></div>
-						</div>
-						<div class="col-lg-10">
-							<h6> Commercial experience with build and continuous integration tools (Maven, Ant, Gradle, Hudson/Jenkins, Continuum).</h6>
-						</div>
-					</div>
-				</div>
-				</section>
-				<section id="contact" class="contact">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<h2>&lt;&#8194CONTACT&#8194&gt;</h2>
-								<div class="hr1"></div>
-							</div>
-						</div>
-						<div class="mailto">
-							<div class="row">
-								<div class="col-lg-12">
-									<a href="mailto:NIKOLAYSARYCHEV@GMAIL.COM">NIKOLAYSARYCHEV@GMAIL.COM</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<footer id="footer" class="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="backfooter">
-								2017
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
-		<script   src="https://code.jquery.com/jquery-2.1.4.min.js"   integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="   crossorigin="anonymous">
-		</script>
-		<script type="text/javascript">
-			function Anchor(active){
-				if(active==true){
-				var hash=window.location.hash;
-				 if(hash){
-			 	$("#menu").removeClass("active");
-			 	 $("a[href="+hash+"]").addClass("active");
-			  }
-			}
-			 function AnchorHref(){
-			 var anchor=$(this);
-			 if(hash){
-				$("#menu").removeClass("active");
-				anchor.addClass("active");
-			 }
-				$("html, body").animate({
-				scrollTop: $(anchor.attr("href")).offset().top
-				}, 500);
-				}
-				$("a[href*=#]").click(AnchorHref);
-			        }
-			        Anchor(true);
-		</script>
-				<!-- jquery -->
-				<!-- <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script> -->
-				<!-- easing plugin ( optional ) -->
-		<script src="js/easing.js" type="text/javascript"></script>
-		<!-- UItoTop plugin -->
-		<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
-		<!-- Starting the plugin -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-			/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear'
-			};
-			*/
-			$().UItoTop({ easingType: 'easeOutQuart' });
-			});
-		</script>
-	</body>
+        })
+
+    });
+</script>
+<p id="back-top"><a href="#top"><span></span></a></p>
+</body>
 </html>
